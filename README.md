@@ -245,3 +245,9 @@ If you find Inter-Edit or this codebase useful in your research, please cite:
 ## Acknowledgement
 
 This release builds on the open-source ecosystems around **Qwen-Image-Edit**, **Diffusers**, **PEFT**, and **Accelerate**.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
+
+Contributor: [Delong Liu](https://github.com/Delong-liu-bupt)
