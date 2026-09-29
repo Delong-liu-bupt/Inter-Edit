@@ -1,0 +1,25 @@
+accelerate==1.9.0
+bitsandbytes
+datasets==4.0.0
+deepspeed==0.17.4
+diffusers @ git+https://github.com/huggingface/diffusers@7a2b78bf0f788d311cc96b61e660a8e13e3b1e63
+einops==0.8.0
+gradio
+huggingface-hub==0.34.3
+loguru==0.7.3
+lpips
+matplotlib==3.10.5
+numpy
+omegaconf==2.3.0
+onnxruntime==1.22.1
+opencv-python==4.12.0.88
+optimum-quanto==0.2.7
+peft==0.17.0
+Pillow
+qwen_vl_utils==0.0.11
+requests
+safetensors
+sentencepiece==0.2.0
+timm==1.0.19
+torchvision==0.22.1
+transformers==4.55.0

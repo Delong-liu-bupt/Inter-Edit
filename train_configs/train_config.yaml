@@ -1,0 +1,40 @@
+pretrained_model_name_or_path: Qwen/Qwen-Image-Edit-2511
+
+data_config:
+  json_file: ./data/json/Inter-Edit-train.json
+  data_root: null
+  train_batch_size: 1
+  num_workers: 2
+  img_size: 1024
+  caption_dropout_rate: 0.1
+  filter_invalid: false
+  only_better_data: false
+  max_samples: 128
+
+report_to: null
+train_batch_size: 1
+output_dir: ./outputs/cjt_debug
+max_train_steps: 1000
+learning_rate: 2e-4
+lr_scheduler: constant
+lr_warmup_steps: 10
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 0.01
+adam_epsilon: 1e-8
+max_grad_norm: 1.0
+logging_dir: logs
+mixed_precision: bf16
+checkpointing_steps: 500
+checkpoints_total_limit: 5
+tracker_project_name: inter_edit_cjt_debug
+resume_from_checkpoint: null
+gradient_accumulation_steps: 1
+cached_embeddings_dir: null
+
+rank: 32
+precompute_text_embeddings: false
+precompute_image_embeddings: false
+quantize: false
+adam8bit: false
+max_control_images: 2

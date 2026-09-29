@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+*.out
+*.tmp
+.DS_Store
+.gradio/
+.pytest_cache/
+outputs/
+logs/
+wandb/
+evaluation/*.json
